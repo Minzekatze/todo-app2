@@ -75,7 +75,12 @@ function App() {
               {" "}
               {todos.filter((todo) => !todo.complete).length} left to do
             </div>
-            <TodoList todos={todos} toggleTodo={toggleTodo} id="todo-list" />
+            <TodoList
+              todos={todos}
+              toggleTodo={toggleTodo}
+              id="todo-list"
+              editTodo={editTodo}
+            />
           </div>
         </div>
       </div>
