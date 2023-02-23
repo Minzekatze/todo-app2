@@ -16,7 +16,7 @@ export default function Todo({ todo, toggleTodo, editTodo }) {
 
   return (
     //<div>
-    <li>
+    <li className="li-items d-flex justify-content-between">
       <label>
         <input
           className="checkBox"
@@ -26,7 +26,9 @@ export default function Todo({ todo, toggleTodo, editTodo }) {
         />
         {todo.name}
       </label>
-      <button onClick={handleTodoEdit}>edit</button>
+      <button className="btn-edit" onClick={handleTodoEdit}>
+        edit
+      </button>
     </li>
     // </div>
   );

@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import TodoList from "./TodoList";
 import { v4 as uuidv4 } from "uuid";
 import "./style.css";
+import list from "./list.png";
 
 const LOCAL_STORAGE_KEY = "todoApp.todos";
 
@@ -54,7 +55,11 @@ function App() {
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-sm-12 col-md-8 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-          <h2>Do It List</h2>
+          <h2>
+            Do It List
+            <img src={list} alt="list-logo" style={{ width: 50, height: 50 }} />
+          </h2>
+
           <div className="d-flex align-items-center" id="add-section">
             <input
               className=""

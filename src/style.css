@@ -92,3 +92,13 @@
     width: 100%;
     margin-top: 0.6em
   }
+
+  .btn-edit{
+    border-radius: 10px;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    font-size: 0.75em;
+
+  }
