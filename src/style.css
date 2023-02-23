@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  body {
+    background-color: rgb(142, 242, 199);
+  }
+  
+  .button {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 1em;
+    font-weight: 800;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
+  
+  ul li{ 
+    list-style: none;
+    min-width: 23em;
+    max-width: 30em;
+    padding: 0.25em;
+    margin-top: 0.25rem;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+    font-size: 1em;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+  .done {
+    text-decoration: line-through rgb(112, 112, 112) 2px;
+    color: rgb(112, 112, 112);
+    font-weight: 200;
+  }
+  
+  .row {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .col-sm-12 {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border-radius: 5%;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  #new-item {
+    width: 18em;
+  }
+  
+  ol,
+  ul {
+    padding: 0;
+  }
+  
+  ul {
+    margin-top: 0.5em;
+  }
+  
+  li:nth-child(odd) {
+    background: rgb(137, 209, 235);
+  }
+  
+  li:nth-child(even) {
+    background: #78f0b2;
+  }
+  
+  .clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -1.9em;
+    margin-left: 15.625em;
+    display: block;
+  }
+
+  .checkBox{
+    margin-right: 0.5em;
+  }
+
+  .todoCount{
+    text-align: end;
+    width: 100%;
+    margin-top: 0.6em
+  }
